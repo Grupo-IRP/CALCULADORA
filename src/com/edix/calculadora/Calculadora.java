@@ -22,6 +22,38 @@ package com.edix.calculadora;
  *
  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class Calculadora {
 	/**
 	 * Este es el método principal donde se va a ejecutar la calculadora.
@@ -31,10 +63,29 @@ public class Calculadora {
 
 	public static void main(String[] args) {
 		
-		String hola;
-		int hol =0;
+Producto pro = new Producto();
+		
+		
+		System.out.println(pro.productoDosEnteros(-8, 200000));
+		System.out.println(pro.productoDosReales(2137483648,1 ));
+		System.out.println(pro.productoTresReales(2147483645, 5, 2));
+		System.out.println(pro.potencia(58, 2));
+		
 
+	
+	
+	
+	
+	
+	
+	
 	}
 
-}
 
+
+
+
+
+
+
+}
