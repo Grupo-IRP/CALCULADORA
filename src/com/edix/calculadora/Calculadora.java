@@ -32,18 +32,18 @@ public class Calculadora {
 
 	public static void main(String[] args) {
 		
-
-		Suma sum=new Suma();
+    // Pruebas correspondientes a la clase Suma.
+   	Suma sum=new Suma();
+    
 		System.out.println(sum.sumaDosEnteros(5, -1));
 		System.out.println(sum.sumaDosReales(41561.1451,5646.54654));
 		System.out.println(sum.sumaTresReales(9, 5, -2));
 		sum.acumulador(44242);
 		System.out.println(sum.acumulado);
 		
-				
+		// Pruebas correspondientes a la clase Resta.		
 		Resta resta = new Resta();
-		Cociente cociente = new Cociente();
-		
+				
 		System.out.println("Resta de dos enteros : " + resta.restaDosEnteros(80,32));
 		System.out.println("Resta de dos reales : " + resta.restaDosReales(100.50,47.8));
 		System.out.println("Resta de dos reales : " + resta.restaTresReales(100.50,47.8, 35.90));
@@ -53,33 +53,24 @@ public class Calculadora {
 		resta.acumulador(200);
 		System.out.println(resta.getAcumulado());
 		
+    // Pruebas correspondientes a la clase Producto.
+		Producto pro = new Producto();
 		
 		
+		System.out.println(pro.productoDosEnteros(-8, 200000));
+		System.out.println(pro.productoDosReales(2137483648,1 ));
+		System.out.println(pro.productoTresReales(2147483645, 5, 2));
+		System.out.println(pro.potencia(58, 2));
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		// Pruebas correspondientes a la clase Cociente.	
+    Cociente cociente = new Cociente();
+    
 		System.out.println("Cociente de dos enteros : " + cociente.cocienteDosEnteros(1500, 92));
 		System.out.println("Cociente de dos enteros : " + cociente.cocienteDosReales(185.93, 25.50));
 		System.out.println("Inverso : " + cociente.inverso(25));
 		System.out.println("Raíz cuadrada : " + cociente.raiz(50));
 		
 
-		
-
 	}
 
 }
-
