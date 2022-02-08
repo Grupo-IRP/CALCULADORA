@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"com.edix.calculadora","l":"Calculadora"},{"p":"com.edix.calculadora","l":"Cociente"},{"p":"com.edix.calculadora","l":"Producto"},{"p":"com.edix.calculadora","l":"Resta"},{"p":"com.edix.calculadora","l":"Suma"}];updateSearchResults();
