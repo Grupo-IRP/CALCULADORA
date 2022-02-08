@@ -16,6 +16,10 @@ package com.edix.calculadora;
  * <li>-103 Error al sobrepasar el valor maximo permitido del resultado.
  * </ul>
  * 
+ * @see Suma
+ * @see Resta
+ * @see Producto
+ * @see Cociente
  * 
  * @author Israel Serrano, Pablo Baldazo, Ricardo Alvarado
  * @version 1.1

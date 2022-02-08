@@ -12,6 +12,11 @@ package com.edix.calculadora;
  * Más información sobre resta de números reales en
  * <a href="https://cutt.ly/mIgfgqu">restaReales</a>
  * 
+ * @see Suma
+ * @see Producto
+ * @see Cociente
+ * @see Calculadora
+ * 
  * @author Israel Serrano, Pablo Baldazo, Ricardo Alvarado
  * @version 1.1
  */

@@ -14,6 +14,11 @@ package com.edix.calculadora;
  * Más información acerca de la suma de números reales en
  * <a href="https://cutt.ly/3IgoKCC">sumaReales</a>
  * 
+ * @see Resta
+ * @see Producto
+ * @see Cociente
+ * @see Calculadora
+ * 
  * @author Israel Serrano, Pablo Baldazo, Ricardo Alvarado
  * @version 1.1
  * 
