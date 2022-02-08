@@ -31,8 +31,51 @@ public class Calculadora {
 
 	public static void main(String[] args) {
 		
-		String hola;
-		int hol =0;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Resta resta = new Resta();
+		Cociente cociente = new Cociente();
+		
+		System.out.println("Resta de dos enteros : " + resta.restaDosEnteros(80,32));
+		System.out.println("Resta de dos reales : " + resta.restaDosReales(100.50,47.8));
+		System.out.println("Resta de dos reales : " + resta.restaTresReales(100.50,47.8, 35.90));
+		
+		resta.acumulador(1000);
+		System.out.println(resta.getAcumulado());
+		resta.acumulador(200);
+		System.out.println(resta.getAcumulado());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		System.out.println("Cociente de dos enteros : " + cociente.cocienteDosEnteros(1500, 92));
+		System.out.println("Cociente de dos enteros : " + cociente.cocienteDosReales(185.93, 25.50));
+		System.out.println("Inverso : " + cociente.inverso(25));
+		System.out.println("Raíz cuadrada : " + cociente.raiz(50));
+		
 
 	}
 
