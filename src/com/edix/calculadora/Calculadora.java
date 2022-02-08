@@ -26,13 +26,18 @@ public class Calculadora {
 	/**
 	 * Este es el método principal donde se va a ejecutar la calculadora.
 	 * 
+	 * 
 	 * @param args Argumentos de la línea de comandos.
 	 */
 
 	public static void main(String[] args) {
 		
-		String hola;
-		int hol =0;
+		Suma sum=new Suma();
+		System.out.println(sum.sumaDosEnteros(5, -1));
+		System.out.println(sum.sumaDosReales(41561.1451,5646.54654));
+		System.out.println(sum.sumaTresReales(9, 5, -2));
+		sum.acumulador(44242);
+		System.out.println(sum.acumulado);
 
 	}
 
