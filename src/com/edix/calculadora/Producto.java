@@ -14,6 +14,11 @@ package com.edix.calculadora;
  * Más información sobre multiplicación de números reales en
  * <a href="https://cutt.ly/rIgjKLM">productoReales</a>
  * 
+ * @see Suma
+ * @see Resta
+ * @see Cociente
+ * @see Calculadora
+ * 
  * @author Israel Serrano, Pablo Baldazo, Ricardo Alvarado
  * @version 1.1
  */

@@ -12,6 +12,11 @@ package com.edix.calculadora;
  * Más información sobre división de números reales en
  * <a href="https://cutt.ly/WIglHaw">cocienteReales</a>
  * 
+ * @see Suma
+ * @see Resta
+ * @see Producto
+ * @see Calculadora
+ * 
  * @author Israel Serrano, Pablo Baldazo, Ricardo Alvarado
  * @version 1.1
  */
