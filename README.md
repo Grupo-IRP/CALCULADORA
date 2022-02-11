@@ -11,6 +11,9 @@ Entornos de desarrollo
  obtendremos los siguientes códigos de error:
  
  -100 Error al introducir un parámetro negativo.
+ 
  -101 Error al introducir el valor cero como parámetro.
+ 
  -102 Error al sobrepasar el valor máximo permitido del parámetro.
+ 
  -103 Error al sobrepasar el valor máximo permitido del resultado.
