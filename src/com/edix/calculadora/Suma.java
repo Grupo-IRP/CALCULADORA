@@ -103,7 +103,7 @@ public class Suma {
 		}
 	    double resultado = real1+real2;
 		
-		if(resultado<0) {
+		if(resultado<0 || resultado>LIMITE) {
 			
 			return -103;
 		}
