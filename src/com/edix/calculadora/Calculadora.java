@@ -70,9 +70,9 @@ public class Calculadora {
     Cociente cociente = new Cociente();
     
 		System.out.println("Cociente de dos enteros : " + cociente.cocienteDosEnteros(1500, 92));
-		System.out.println("Cociente de dos enteros : " + cociente.cocienteDosReales(185.93, 25.50));
+		System.out.println("Cociente de dos reales : " + cociente.cocienteDosReales(185.93, 25.50));
 		System.out.println("Inverso : " + cociente.inverso(25));
-		System.out.println("RaÃ­z cuadrada : " + cociente.raiz(50));
+		System.out.println("Raíz cuadrada : " + cociente.raiz(50));
 		
 
 	}
