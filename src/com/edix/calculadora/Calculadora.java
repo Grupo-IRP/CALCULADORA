@@ -43,7 +43,7 @@ public class Calculadora {
 		System.out.println(sum.sumaDosReales(41561.1451,5646.54654));
 		System.out.println(sum.sumaTresReales(9, 5, -2));
 		sum.acumulador(44242);
-		System.out.println(sum.acumulado);
+		System.out.println(sum.getAcumulado());
 		
 		// Pruebas correspondientes a la clase Resta.		
 		Resta resta = new Resta();
