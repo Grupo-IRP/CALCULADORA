@@ -1,6 +1,5 @@
 package com.edix.calculadora;
 
-
 /**
  * <h2>Clase Suma, realiza la suma de dos o tres números reales o enteros y
  * acumulación de valores.</h2>
